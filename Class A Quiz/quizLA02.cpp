@@ -21,7 +21,7 @@ int main(){
 					lie+= 1; 
 				}
 			}
-		if(truth > lie){
+		if(truth > lie && lie == 0){
 			printf("YES\n");
 		}
 		else{
